@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/latar.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.context {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+.context img {
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}
+.alasannya ion-icon {
+  font-size: 50px !important;
+}
+
+.alasannya h5 {
+  font-size: 25px !important;
+}
+
+.alasannya p {
+  font-size: 20px !important;
+}
+.memilih {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.memilih-kami {
+  max-width: 800px;
+  max-height: 80vh;
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.memilih .memilih-kami {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  position: relative;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("img/footer2.jpg");
+  background-size: cover;
+}
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* Warna gelap yang diinginkan */
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 14px;
+  opacity: 0.9;
+}

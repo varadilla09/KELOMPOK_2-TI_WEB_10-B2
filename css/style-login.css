@@ -1,0 +1,16 @@
+body {
+  background-image: url("../img/login.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  border-radius: 8px;
+}

@@ -1,0 +1,32 @@
+body {
+  background-image: url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding-top: 50px;
+  max-width: 500px;
+}
+
+.form-group label {
+  color: white;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+.containerr {
+  height: 100vh;
+  /* width: 600px; */
+}
